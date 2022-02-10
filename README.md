@@ -45,30 +45,30 @@ cd restaurant-service-app && cd client && npm install  && npm start
 ## Screenshots and functionality
 On the landing page, the user can go to the list of dishes or the list of orders
 
-![alt text](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dashboard.png?raw=true)
+![alt text](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dashboard.png)
 
 In the dish list view page and order list view page, the user can browse the dishes and orders. The site includes sorting, a text search engine, and filters in the form of buttons and checkboxes. Browsing dishes uses pagination, the user can also set the number of dishes to be displayed on one page. On the order list page, the user can also check a given order by clicking on the icon. By clicking on a given item, the user goes to the details.
 
 ![dish list](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dishList.png)
 
-![order list](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/orderList.png?raw=true)
+![order list](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/orderList.png)
 
 On the detail page, the user can see all the information about the item. By clicking on the appropriate buttons, he can edit or delete the item. In the case of order details, the user sees the list of dishes that the order contains.
 
-![dish details](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/dishDetails.png?raw=true)
+![dish details](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dishDetails.png)
 
-![order details](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/orderDetails.png?raw=true)
+![order details](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/orderDetails.png)
 
 The user can add and edit dishes and orders through a form that includes validation.
-![dish create](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/dishCreate.png?raw=true)
+![dish create](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dishCreate.png)
 
-![order create](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/orderCreate.png?raw=true)
+![order create](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/orderCreate.png)
 
-![dish edit](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/dishEdit.png?raw=true)
+![dish edit](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dishEdit.png)
 
 The user can also delete the item by clicking on the icon and accepting the confirmation.
 
-![delete confirmation window](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/delete.png?raw=true)
+![delete confirmation window](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/delete.png)
 
 ## Sources
 
