@@ -1,0 +1,735 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Spartan:wght@200;300;400;500;600;700&display=swap");
+body {
+  background-color: #303030;
+  font-family: "Roboto";
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+
+.logo img {
+  height: 35px;
+  width: auto;
+  padding-right: 10px;
+}
+
+.logo p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dashboard {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dashboard .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 30px auto auto;
+  width: 40vw;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.dashboard .content .logo {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.dashboard .content .slogan {
+  width: 30px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 70px;
+  font-family: "Spartan";
+  font-weight: 700;
+}
+
+.dashboard .content .buttons {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.dashboard .content .buttons .button {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  opacity: 60%;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.dashboard .content .buttons :first-child {
+  opacity: 100%;
+}
+
+.navbar {
+  background-color: #3f3f3f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  width: 100%;
+}
+
+.navbar .links {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .links .link {
+  margin: 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .links .link:hover {
+  background-color: #303030;
+  opacity: 90%;
+}
+
+.mainContent {
+  background-color: white;
+  width: 70vw;
+  margin: 30px auto;
+  color: black;
+  padding: 30px 30px;
+  border-radius: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.filters {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b4b4b4;
+}
+
+.filters .heading {
+  margin: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.filters .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.filters .search input {
+  border-radius: 5px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.filters .search img {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+
+.filters .sort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 0;
+}
+
+.filters .sort select {
+  margin-left: 5px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.filters .perPage {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.filters .perPage select {
+  font-size: 13px;
+  margin-left: 5px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.filters .categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.filters .categories button {
+  font-family: Roboto;
+  width: 90px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px 5px;
+  border: 1px solid lightgrey;
+}
+
+.filters .categories button:hover {
+  cursor: pointer;
+}
+
+.filters .checkboxes div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filters .checkboxes div p {
+  font-size: 13px;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination p {
+  margin: 3px;
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.pagination p:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1em lightgrey;
+          box-shadow: 0 0 1em lightgrey;
+}
+
+.dishList .dishes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dishList .dishes .dish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 15vw;
+  margin: 0 1vw;
+}
+
+.dishList .dishes .dish .deleteIcon {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.dishList .dishes .dish .deleteIcon:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+  -webkit-box-shadow: 0 0 1em lightgrey;
+          box-shadow: 0 0 1em lightgrey;
+}
+
+.dishList .dishes .dish .dish-link {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dishList .dishes .dish img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  width: 15vw;
+  height: 15vw;
+}
+
+.dishList .dishes .dish p {
+  text-align: center;
+}
+
+.dishList .dishes .dish img:hover {
+  -webkit-box-shadow: 0 0 1em #3f3f3f;
+          box-shadow: 0 0 1em #3f3f3f;
+  opacity: 70%;
+}
+
+.orderList .order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.orderList .order .order-link {
+  text-decoration: none;
+  color: black;
+}
+
+.orderList .order .deleteIcon {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.orderList .order .deleteIcon:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 1em lightgrey;
+          box-shadow: 0 0 1em lightgrey;
+  background-color: lightgrey;
+}
+
+.orderList .order:hover {
+  -webkit-box-shadow: 0 0 1em lightgrey;
+          box-shadow: 0 0 1em lightgrey;
+}
+
+.formComponent h3 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.formComponent .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 50%;
+  font-size: 14px;
+}
+
+.formComponent .form .field {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.formComponent .form p {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #303030;
+  font-size: 13px;
+  margin: 0;
+}
+
+.formComponent .form button {
+  color: white;
+  background-color: #303030;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Spartan';
+}
+
+.formComponent .form button:hover {
+  background-color: #3f3f3f;
+  cursor: pointer;
+}
+
+.formComponent .form .radio {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.formComponent .form .radio div {
+  margin: 10px 0;
+}
+
+.formComponent .form .errorMessage {
+  padding: 2px;
+  background-color: #fddede;
+  border: 1px solid red;
+  color: #dd0000;
+  border-radius: 3px;
+  text-align: center;
+  margin: auto;
+  margin-right: 0;
+}
+
+.formComponent .form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 150%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formComponent .form .checkbox .checkbox-elem {
+  border: 1px lightgray solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.formComponent .form .checkbox img {
+  height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.details .icons {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.details .icons img {
+  height: 25px;
+  width: 25px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.details .icons img:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+  -webkit-box-shadow: 0 0 1em lightgrey;
+          box-shadow: 0 0 1em lightgrey;
+}
+
+.details .main {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.details .main .photo {
+  margin: auto;
+  width: 50%;
+  max-width: 750px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: lightgray solid 1px;
+}
+
+.details .main .info {
+  width: 100%;
+  margin-left: 5%;
+}
+
+.details .main .info .indicates img {
+  height: 40px;
+  width: 40px;
+}
+
+.details .main .info .name {
+  font-size: 25px;
+}
+
+.details .main .info .note {
+  text-align: center;
+  width: 70%;
+  padding: 10px 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid green;
+  background-color: #e0f7e0;
+}
+
+.details .main .info .note p {
+  color: green;
+  margin: 5px;
+}
+
+.details .order-dishes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.details .order-dishes .order-dish img {
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.details .order-dishes .order-dish img:hover {
+  -webkit-box-shadow: 0 0 1em lightgrey;
+          box-shadow: 0 0 1em lightgrey;
+}
+
+.order-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.order-title img {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.order-title img:hover {
+  cursor: pointer;
+}
+
+.order-info-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.order-info-titles p {
+  margin: 0 40px;
+}
+
+.order-info-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.order-info-icons div {
+  text-align: center;
+}
+
+.order-info-icons div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-info-icons div div p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.order-info-icons div img {
+  margin: 0 10px;
+  height: 30px;
+  width: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .navbar .logo {
+    margin: 0;
+  }
+  .navbar .links .link {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 750px) {
+  .dishList .dishes .dish {
+    width: 60vw;
+  }
+  .dishList .dishes .dish img {
+    width: 60vw;
+    height: 60vw;
+  }
+  .details .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .details .main .photo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .dishList .dishes .dish {
+    width: 30vw;
+  }
+  .dishList .dishes .dish img {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .dishList .dishes .dish {
+    width: 20vw;
+  }
+  .dishList .dishes .dish img {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+/*# sourceMappingURL=App.css.map */
