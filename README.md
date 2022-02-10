@@ -45,11 +45,11 @@ cd restaurant-service-app && cd client && npm install  && npm start
 ## Screenshots and functionality
 On the landing page, the user can go to the list of dishes or the list of orders
 
-![alt text](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/dashboard.png?raw=true)
+![alt text](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dashboard.png?raw=true)
 
 In the dish list view page and order list view page, the user can browse the dishes and orders. The site includes sorting, a text search engine, and filters in the form of buttons and checkboxes. Browsing dishes uses pagination, the user can also set the number of dishes to be displayed on one page. On the order list page, the user can also check a given order by clicking on the icon. By clicking on a given item, the user goes to the details.
 
-![dish list](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/dishList.png?raw=true)
+![dish list](https://github.com/juliadlutek/restaurant-service-app/blob/master/client/src/images/screenshots/dishList.png)
 
 ![order list](https://gitlab.com/frontend-development/21-22/grupa-3/julia-dlutek/-/blob/main/projekt/restaurant-service-app/client/src/images//screenshots/orderList.png?raw=true)
 
